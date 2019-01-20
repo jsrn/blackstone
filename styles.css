@@ -34,3 +34,32 @@ img.header-image {
   width: 600px;
   margin: 0 auto;
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    width: 100vw;
+  }
+
+  body {
+    display: block;
+    padding: 10px;
+  }
+
+  section {
+    width: 100%;
+  }
+
+  p,
+  ul,
+  .header-image,
+  iframe
+  {
+    max-width: 100%;
+  }
+}
