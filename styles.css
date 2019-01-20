@@ -1,0 +1,14 @@
+body {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-gap: 20px;
+  font-size: 18px;
+  background-color: hsla(15, 5%, 15%, 1);
+  color: hsl(0, 5%, 85%);
+  line-height: 1.5;
+  justify-content: center;
+}
+
+p, ul {
+  width: 35em;
+}
