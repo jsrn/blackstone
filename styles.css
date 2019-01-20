@@ -22,6 +22,15 @@ ul.attire-list {
   list-style-image: url('images/ui/bandana.png');
 }
 
+a {
+  color: hsl(0, 50%, 50%);
+}
+
 a:visited {
   color: hsl(0, 38%, 67%);
+}
+
+img.header-image {
+  width: 600px;
+  margin: 0 auto;
 }
