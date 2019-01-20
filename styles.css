@@ -7,8 +7,21 @@ body {
   color: hsl(0, 5%, 85%);
   line-height: 1.5;
   justify-content: center;
+  font-family: -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
 }
 
 p, ul {
   width: 35em;
+}
+
+ul {
+  list-style-image: url('images/ui/dagger.png');
+}
+
+ul.attire-list {
+  list-style-image: url('images/ui/bandana.png');
+}
+
+a:visited {
+  color: hsl(0, 38%, 67%);
 }
